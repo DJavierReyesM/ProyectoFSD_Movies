@@ -11,6 +11,7 @@ namespace ProyectoFSD_WebMovies.Data
         public DbSet<Director> Directores { get; set; }
         public DbSet<Genero> Generos { get; set; }
         public DbSet<Pelicula> Peliculas { get; set; }
+        public DbSet<Director> Director { get; set; }
 
     }
 }

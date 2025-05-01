@@ -114,9 +114,9 @@ namespace ProyectoFSD_WebMovies.Controllers
         // POST: Actores/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Actor actor, IFormFile ImagenArchivo) // cambia Actor por Pelicula si es para películas
+        public async Task<IActionResult> Edit(int id, Actor actorEditado, IFormFile ImagenArchivo)
         {
-            if (id != actor.Id)
+            if (id != actorEditado.Id)
             {
                 return NotFound();
             }
@@ -125,6 +125,14 @@ namespace ProyectoFSD_WebMovies.Controllers
             {
                 try
                 {
+                    var actorOriginal = await _context.Actores.FindAsync(id);
+                    if (actorOriginal == null)
+                        return NotFound();
+
+                    actorOriginal.Nombre = actorEditado.Nombre;
+                    actorOriginal.Biografia = actorEditado.Biografia;
+                    actorOriginal.FechaNacimiento = actorEditado.FechaNacimiento;
+
                     if (ImagenArchivo != null && ImagenArchivo.Length > 0)
                     {
                         var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(ImagenArchivo.FileName);
@@ -135,27 +143,25 @@ namespace ProyectoFSD_WebMovies.Controllers
                             await ImagenArchivo.CopyToAsync(stream);
                         }
 
-                        actor.ImagenRuta = "/imagenes/" + nombreArchivo;
+                        actorOriginal.ImagenRuta = "/imagenes/" + nombreArchivo;
                     }
 
-                    _context.Update(actor);
                     await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ActorExists(actor.Id))
-                    {
+                    if (!_context.Actores.Any(e => e.Id == actorEditado.Id))
                         return NotFound();
-                    }
                     else
-                    {
                         throw;
-                    }
                 }
-                return RedirectToAction(nameof(Index));
             }
-            return View(actor);
+            return View(actorEditado);
         }
+
+
+
 
 
         // GET: Actores/Delete/5

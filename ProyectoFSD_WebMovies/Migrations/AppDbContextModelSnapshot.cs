@@ -55,6 +55,10 @@ namespace ProyectoFSD_WebMovies.Migrations
                     b.Property<string>("ImagenRuta")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Nacionalidad")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -72,8 +76,16 @@ namespace ProyectoFSD_WebMovies.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Biografia")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<DateTime>("FechaNacimiento")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("ImagenRuta")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nacionalidad")
                         .IsRequired()
@@ -85,7 +97,7 @@ namespace ProyectoFSD_WebMovies.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Directores");
+                    b.ToTable("Director");
                 });
 
             modelBuilder.Entity("ProyectoFSD_WebMovies.Models.Genero", b =>
@@ -128,10 +140,6 @@ namespace ProyectoFSD_WebMovies.Migrations
 
                     b.Property<int>("GeneroId")
                         .HasColumnType("int");
-
-                    b.Property<string>("ImagenPelicula")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImagenRuta")
                         .HasColumnType("nvarchar(max)");

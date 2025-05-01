@@ -39,7 +39,10 @@
                     <td>@item.Sinopsis</td>
                     <td>@item.Duracion</td>
                     <td>@item.FechaEstreno.ToShortDateString()</td>
-                    <td>@item.ImagenRuta</td>
+                    <td>
+                        <img src="@item.ImagenRuta" alt="Imagen" style="max-height: 100px;" />
+                    </td>
+
                     <td>@item.Genero?.Nombre</td>
                     <td>@item.Director?.Nombre</td>
                     <td>
