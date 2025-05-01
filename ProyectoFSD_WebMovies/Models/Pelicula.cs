@@ -1,4 +1,6 @@
-﻿namespace ProyectoFSD_WebMovies.Models
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+
+namespace ProyectoFSD_WebMovies.Models
 {
     public class Pelicula
     {
@@ -9,19 +11,19 @@
         public DateTime FechaEstreno { get; set; }
         public string? ImagenRuta { get; set; }
 
-
-        public string ImagenPelicula { get; set; }
-
         // Genero: FK y Navegacion
         public int GeneroId { get; set; }
-
+        [ValidateNever]
         public Genero Genero { get; set; }
 
         // Director: FK y Navegacion
         public int DirectorId { get; set; }
+        [ValidateNever]
         public Director Director { get; set; }
 
         // Actor: FK
+
+        [ValidateNever]
         public ICollection<Actor> Actores { get; set; }
 
     }

@@ -9,7 +9,14 @@ namespace ProyectoFSD_WebMovies
         public AppDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            optionsBuilder.UseSqlServer("Server=DESKTOP-UGTJ58R;Database=ProyectoFSDPeliculas;Trusted_Connection=True;TrustServerCertificate=True;");
+            // Cargar configuración desde appsettings.json
+            var configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json")
+                .Build();
+
+            // Usar la cadena de conexión configurada
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
 
             return new AppDbContext(optionsBuilder.Options);
         }

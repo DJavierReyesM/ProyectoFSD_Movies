@@ -1,4 +1,6 @@
-﻿namespace ProyectoFSD_WebMovies.Models
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+
+namespace ProyectoFSD_WebMovies.Models
 {
     public class Actor
     {
@@ -10,6 +12,7 @@
 
 
         // Relacion N - M (Peliculas)
+        [ValidateNever]
         public ICollection<Pelicula> Peliculas { get; set; }
     }
 }
