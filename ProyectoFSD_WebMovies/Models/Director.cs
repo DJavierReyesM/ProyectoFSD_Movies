@@ -7,6 +7,7 @@
         public string Nacionalidad { get; set; }
         public DateTime FechaNacimiento { get; set; } 
 
+
         // Relacion 1 - N
         public ICollection<Pelicula> Peliculas { get; set; }
 

@@ -18,12 +18,25 @@ namespace ProyectoFSD_WebMovies.Controllers
         {
             _context = context;
         }
-
         // GET: Actores
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Actores.ToListAsync());
+            var actores = from a in _context.Actores
+                          select a;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                actores = actores.Where(a => a.Nombre.Contains(searchString));
+            }
+
+            actores = actores
+                .GroupBy(a => a.Nombre)
+                .Select(g => g.First())
+                .AsQueryable();
+
+            return View(await actores.ToListAsync());
         }
+
 
         // GET: Actores/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -46,24 +59,41 @@ namespace ProyectoFSD_WebMovies.Controllers
         // GET: Actores/Create
         public IActionResult Create()
         {
+            ViewBag.GeneroId = new SelectList(_context.Generos, "Id", "Nombre");
+            ViewBag.DirectorId = new SelectList(_context.Directores, "Id", "Nombre");
             return View();
         }
 
         // POST: Actores/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nombre,Biografia,FechaNacimiento")] Actor actor)
+        public async Task<IActionResult> Create(Actor actor, IFormFile ImagenArchivo)
         {
             if (ModelState.IsValid)
             {
+                // Manejo de imagen
+                if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                {
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagenes");
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(ImagenArchivo.FileName);
+                    var filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                    using (var fileStream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await ImagenArchivo.CopyToAsync(fileStream);
+                    }
+
+                    actor.ImagenRuta = "/imagenes/" + uniqueFileName;
+                }
+
                 _context.Add(actor);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+
             return View(actor);
         }
+    
 
         // GET: Actores/Edit/5
         public async Task<IActionResult> Edit(int? id)
@@ -82,11 +112,9 @@ namespace ProyectoFSD_WebMovies.Controllers
         }
 
         // POST: Actores/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Biografia,FechaNacimiento")] Actor actor)
+        public async Task<IActionResult> Edit(int id, Actor actor, IFormFile ImagenArchivo) // cambia Actor por Pelicula si es para películas
         {
             if (id != actor.Id)
             {
@@ -97,6 +125,19 @@ namespace ProyectoFSD_WebMovies.Controllers
             {
                 try
                 {
+                    if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                    {
+                        var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(ImagenArchivo.FileName);
+                        var ruta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagenes", nombreArchivo);
+
+                        using (var stream = new FileStream(ruta, FileMode.Create))
+                        {
+                            await ImagenArchivo.CopyToAsync(stream);
+                        }
+
+                        actor.ImagenRuta = "/imagenes/" + nombreArchivo;
+                    }
+
                     _context.Update(actor);
                     await _context.SaveChangesAsync();
                 }
@@ -115,6 +156,7 @@ namespace ProyectoFSD_WebMovies.Controllers
             }
             return View(actor);
         }
+
 
         // GET: Actores/Delete/5
         public async Task<IActionResult> Delete(int? id)

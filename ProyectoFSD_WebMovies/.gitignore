@@ -1,0 +1,32 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Others
+*.log
+*.tmp
+*.bak
+*.cache
+*.pdb
+
+# IIS Express
+/.vs/config/
+
+# Node
+node_modules/
+
+# Dependency files
+*.dbmdl
+*.jfm
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

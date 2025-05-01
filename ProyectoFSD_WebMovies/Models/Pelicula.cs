@@ -7,6 +7,8 @@
         public string Sinopsis { get; set; }
         public int Duracion { get; set; }
         public DateTime FechaEstreno { get; set; }
+        public string? ImagenRuta { get; set; }
+
 
         public string ImagenPelicula { get; set; }
 

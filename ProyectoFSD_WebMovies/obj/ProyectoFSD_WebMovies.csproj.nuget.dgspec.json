@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\source\\repos\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj": {}
+    "C:\\Users\\Luis Flores\\Source\\Repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\source\\repos\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj": {
+    "C:\\Users\\Luis Flores\\Source\\Repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj",
+        "projectUniqueName": "C:\\Users\\Luis Flores\\Source\\Repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj",
         "projectName": "ProyectoFSD_WebMovies",
-        "projectPath": "C:\\Users\\Usuario\\source\\repos\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\source\\repos\\ProyectoFSD_WebMovies\\obj\\",
+        "projectPath": "C:\\Users\\Luis Flores\\Source\\Repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj",
+        "packagesPath": "C:\\Users\\Luis Flores\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Luis Flores\\Source\\Repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis Flores\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

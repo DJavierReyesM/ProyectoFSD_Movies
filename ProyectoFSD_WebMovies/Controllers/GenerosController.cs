@@ -20,10 +20,25 @@ namespace ProyectoFSD_WebMovies.Controllers
         }
 
         // GET: Generos
-        public async Task<IActionResult> Index()
+       
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Generos.ToListAsync());
+            var generos = from g in _context.Generos
+                          select g;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                generos = generos.Where(g => g.Nombre.Contains(searchString));
+            }
+
+            generos = generos
+                .GroupBy(g => g.Nombre)
+                .Select(g => g.First())
+                .AsQueryable();
+
+            return View(await generos.ToListAsync());
         }
+
 
         // GET: Generos/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -50,8 +65,6 @@ namespace ProyectoFSD_WebMovies.Controllers
         }
 
         // POST: Generos/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Descripcion")] Genero genero)
@@ -82,8 +95,6 @@ namespace ProyectoFSD_WebMovies.Controllers
         }
 
         // POST: Generos/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Descripcion")] Genero genero)
