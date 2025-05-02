@@ -6,9 +6,17 @@
 - Castro Andres
 
 ## Conexion a base datos
-Cambiar el nombre de la conexión para que coincida con la de su servidor en el archivo: appsettings.Development
+  - 1) Cambiar el nombre de la conexión para que coincida con la de su servidor en el archivo: appsettings.Development
+  - 2) En Visual Studio: Ir a Herramientas > Administrador de paquetes NuGet > Consola del Administrador de paquetes.
+  - 3)  Ejecutar el comando: Update-Database
+Con ese comando se permitirá ejecutar las migraciones correspondientes y en su SQL Server Management Studio podrá ver la base de datos creada
+## Script SQL.
+Una vez realizadas las migraciones, por favor revisar que el esquema de base
+datos se encuentre ya creado en su Servidor SQL. Con la base creada, ejecute
+el script de sql ‘Datos_Proyecto.sql’ para poblar las tablas con informacio n
+para las pruebas
 
-## Información a detalle:
+## Información a detalle del Proyecto:
 ### Descripción general
 CineManía es una aplicación web desarrollada con ASP.NET Core MVC y Entity
 Framework Core. Esta primera entrega tiene como objetivo mostrar un avance
@@ -41,10 +49,12 @@ presente entrega, se espera tenerla lista para la entrega final.
 
 ### Funcionalidad CRUD
 Se implemento el CRUD completo (crear, leer, editar, eliminar) para:
+
 - Actores
 - Directores
 - Películas
 - Generos
+  
 Cada vista de lista muestra los elementos sin duplicados y permite navegar a
 editar, eliminar o ver detalles.
 Asociación y navegación entre entidades
