@@ -3,13 +3,17 @@ wwwroot\favicon.ico
 wwwroot\imagenes\0140941c-2733-4ebf-8410-e80e36bead2a.jpg
 wwwroot\imagenes\123acd47-454f-48f9-b023-10f648fc5402.jpg
 wwwroot\imagenes\13599f02-c045-4d8a-bafa-d2d599303965_gozyuger.jpeg
+wwwroot\imagenes\1b83be9a-4f36-4c58-b6ff-b7f822275f84.jpg
 wwwroot\imagenes\261bdada-9cc1-45e6-aa61-2455e2f9f68e.jpg
 wwwroot\imagenes\268e00bf-2452-4af2-99b6-0d5bca787788.jpg
 wwwroot\imagenes\42d2553a-4165-4c04-872b-b2b4af81368f.jpg
+wwwroot\imagenes\5669b634-9cf1-4e84-a7cc-e86316a05020.jpg
 wwwroot\imagenes\7b3d828f-ec6a-41c0-a9bb-4de13909f320.jpg
 wwwroot\imagenes\82e5497f-fac9-4e52-9ada-42f2c53ee525.jpg
 wwwroot\imagenes\842ca537-9b67-4f99-8505-82e1181f80e8.jpg
 wwwroot\imagenes\8a12578d-6045-490c-bc0e-c40f6af1e677.jpg
+wwwroot\imagenes\8b116e02-e7ab-4780-8164-ac9d146c7380.jpg
+wwwroot\imagenes\8fdf8bed-281e-4386-9f47-5b9b22648b14.jpg
 wwwroot\imagenes\988b7f8d-e293-431d-8e01-fa00310fb2c2.jpg
 wwwroot\imagenes\9c548824-dfd0-4882-8e90-8d056283a244.jpg
 wwwroot\imagenes\a45ba91b-c07d-4b3d-88ef-598dec809d4c.jpg

@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\controllers\\directorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:controllers\\directorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "DirectoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Controllers\\DirectoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DirectoresController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Controllers\\DirectoresController.cs",
+              "RelativeToolTip": "Controllers\\DirectoresController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwJsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T04:18:10.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Directores\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Directores\\Create.cshtml",
@@ -61,14 +78,14 @@
               "RelativeDocumentMoniker": "Controllers\\PeliculasController.cs",
               "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Controllers\\PeliculasController.cs",
               "RelativeToolTip": "Controllers\\PeliculasController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwDsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAwJkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-02T04:10:05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Peliculas\\Create.cshtml",
@@ -81,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Directores\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Directores\\Index.cshtml",
@@ -94,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Peliculas\\Index.cshtml",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Director.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Models\\Director.cs",
               "RelativeDocumentMoniker": "Models\\Director.cs",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Pelicula.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Models\\Pelicula.cs",
               "RelativeDocumentMoniker": "Models\\Pelicula.cs",
