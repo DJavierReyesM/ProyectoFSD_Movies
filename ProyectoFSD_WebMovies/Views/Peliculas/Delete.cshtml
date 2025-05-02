@@ -36,22 +36,25 @@
             @Html.DisplayFor(model => model.FechaEstreno)
         </dd>
         <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ImagenRuta)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.ImagenRuta)
-        </dd>
-        <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Genero)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Genero.Id)
+            @Html.DisplayFor(model => model.Genero.Nombre)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Director)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Director.Id)
+            @Html.DisplayFor(model => model.Director.Nombre)
+        </dd>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.ImagenRuta))
+            {
+                <div class="form-group">
+                    <b>Poster Pelicula</b><br />
+                    <img src="@Model.ImagenRuta" style="width: 200px; height: 300px; object-fit: cover;" />
+                </div>
+            }
         </dd>
     </dl>
     

@@ -22,8 +22,15 @@
                 <label asp-for="FechaNacimiento" class="control-label"></label>
                 <input asp-for="FechaNacimiento" class="form-control" />
             </div>
+            @if (!string.IsNullOrEmpty(Model.ImagenRuta)) //Mostrar la imagen actual antes del input
+            {
+                <div class="form-group">
+                    <label>Imagen actual Director:</label><br />
+                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:100px;height:auto;" />
+                </div>
+            }
             <div class="form-group">
-                <label>Imagen del Director</label>
+                <label>Cambiar Imagen del Actor</label>
                 <input type="file" name="ImagenArchivo" class="form-control" />
             </div>
             <div class="form-group mt-3">

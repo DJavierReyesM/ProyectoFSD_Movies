@@ -28,8 +28,15 @@
                 <input asp-for="FechaNacimiento" class="form-control" />
                 <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
             </div>
+            @if (!string.IsNullOrEmpty(Model.ImagenRuta)) //Mostrar la imagen actual antes del input
+            {
+                <div class="form-group">
+                    <label>Imagen actual actor:</label><br />
+                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:100px;height:auto;" />
+                </div>
+            }
             <div class="form-group">
-                <label>Imagen del Actor</label>
+                <label>Cambiar Imagen del Actor</label>
                 <input type="file" name="ImagenArchivo" class="form-control" />
             </div>
 

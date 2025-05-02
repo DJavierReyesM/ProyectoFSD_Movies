@@ -29,6 +29,15 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FechaNacimiento)
         </dd>
+        @if (!string.IsNullOrEmpty(Model.ImagenRuta))
+        {
+            <dd class="col-sm-10">
+                <div class="form-group">
+                    <b>Imagen actual:</b><br />
+                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:100px;height:auto;" />
+                </div>
+            </dd>
+        }
     </dl>
     
     <form asp-action="Delete">

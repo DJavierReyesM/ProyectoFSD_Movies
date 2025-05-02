@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProyectoFSD_WebMovies.Data;
 using ProyectoFSD_WebMovies.Models;
@@ -52,19 +53,19 @@ namespace ProyectoFSD_WebMovies.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Director director, IFormFile ImagenArchivo)
+        public async Task<IActionResult> Create(Director director)
         {
             if (ModelState.IsValid)
             {
-                if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                if (director.ImagenArchivo != null && director.ImagenArchivo.Length > 0)
                 {
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagenes");
-                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(ImagenArchivo.FileName);
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(director.ImagenArchivo.FileName);
                     var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
-                        await ImagenArchivo.CopyToAsync(fileStream);
+                        await director.ImagenArchivo.CopyToAsync(fileStream);
                     }
 
                     director.ImagenRuta = "/imagenes/" + uniqueFileName;
@@ -87,51 +88,81 @@ namespace ProyectoFSD_WebMovies.Controllers
 
             return View(director);
         }
-
+        // POST: Directores/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Director directorEditado, IFormFile ImagenArchivo)
+        public async Task<IActionResult> Edit(int id, Director director)
         {
-            if (id != directorEditado.Id) return NotFound();
+            if (id != director.Id)
+            {
+                return NotFound();
+            }
+
+            // Recuperar director anterior de la base de datos
+            var directorExistente = await _context.Directores.AsNoTracking().FirstOrDefaultAsync(d => d.Id == id);
+            if (directorExistente == null)
+                return NotFound();
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var directorOriginal = await _context.Directores.FindAsync(id);
-                    if (directorOriginal == null) return NotFound();
-
-                    directorOriginal.Nombre = directorEditado.Nombre;
-                    directorOriginal.Nacionalidad = directorEditado.Nacionalidad;
-                    directorOriginal.FechaNacimiento = directorEditado.FechaNacimiento;
-
-                    if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                    if (director.ImagenArchivo != null && director.ImagenArchivo.Length > 0)
                     {
-                        var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(ImagenArchivo.FileName);
+                        // Eliminar la imagen anterior del servidor
+                        if (!string.IsNullOrEmpty(directorExistente.ImagenRuta))
+                        {
+                            var rutaAnterior = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", directorExistente.ImagenRuta.TrimStart('/'));
+                            if (System.IO.File.Exists(rutaAnterior))
+                            {
+                                System.IO.File.Delete(rutaAnterior);
+                            }
+                        }
+
+                        // Guardar nueva imagen
+                        var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(director.ImagenArchivo.FileName);
                         var ruta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagenes", nombreArchivo);
 
                         using (var stream = new FileStream(ruta, FileMode.Create))
                         {
-                            await ImagenArchivo.CopyToAsync(stream);
+                            await director.ImagenArchivo.CopyToAsync(stream);
                         }
 
-                        directorOriginal.ImagenRuta = "/imagenes/" + nombreArchivo;
+                        director.ImagenRuta = "/imagenes/" + nombreArchivo;
+                    }
+                    else
+                    {
+                        // Recuperar la imagen anterior de la base de datos
+                        director.ImagenRuta = directorExistente.ImagenRuta;
                     }
 
+                    _context.Update(director);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!_context.Directores.Any(e => e.Id == directorEditado.Id))
+                    if (!DirectorExists(director.Id))
+                    {
                         return NotFound();
+                    }
                     else
+                    {
                         throw;
+                    }
                 }
+                return RedirectToAction(nameof(Index));
             }
 
-            return View(directorEditado);
+            ViewData["Id"] = new SelectList(_context.Directores, "Id", "Nombre", director.Id);
+            return View(director);
         }
+
+        // Método auxiliar para verificar si existe el director
+        private bool DirectorExists(int id)
+        {
+            return _context.Directores.Any(e => e.Id == id);
+        }
+
 
         public async Task<IActionResult> Delete(int? id)
         {

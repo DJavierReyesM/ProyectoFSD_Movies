@@ -67,20 +67,20 @@ namespace ProyectoFSD_WebMovies.Controllers
         // POST: Actores/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Actor actor, IFormFile ImagenArchivo)
+        public async Task<IActionResult> Create(Actor actor)
         {
             if (ModelState.IsValid)
             {
                 // Manejo de imagen
-                if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                if (actor.ImagenArchivo != null && actor.ImagenArchivo.Length > 0)
                 {
                     var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagenes");
-                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(ImagenArchivo.FileName);
+                    var uniqueFileName = Guid.NewGuid().ToString() + "_" + Path.GetFileName(actor.ImagenArchivo.FileName);
                     var filePath = Path.Combine(uploadsFolder, uniqueFileName);
 
                     using (var fileStream = new FileStream(filePath, FileMode.Create))
                     {
-                        await ImagenArchivo.CopyToAsync(fileStream);
+                        await actor.ImagenArchivo.CopyToAsync(fileStream);
                     }
 
                     actor.ImagenRuta = "/imagenes/" + uniqueFileName;
@@ -114,54 +114,72 @@ namespace ProyectoFSD_WebMovies.Controllers
         // POST: Actores/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Actor actorEditado, IFormFile ImagenArchivo)
+        public async Task<IActionResult> Edit(int id, Actor actor)
         {
-            if (id != actorEditado.Id)
+            if (id != actor.Id)
             {
                 return NotFound();
             }
+
+            // Recuperar libro anterior de la base de datos
+            var actorExistente = await _context.Actores.AsNoTracking().FirstOrDefaultAsync(l => l.Id == id);
+            if (actorExistente == null)
+                return NotFound();
+
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var actorOriginal = await _context.Actores.FindAsync(id);
-                    if (actorOriginal == null)
-                        return NotFound();
-
-                    actorOriginal.Nombre = actorEditado.Nombre;
-                    actorOriginal.Biografia = actorEditado.Biografia;
-                    actorOriginal.FechaNacimiento = actorEditado.FechaNacimiento;
-
-                    if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                    if (actor.ImagenArchivo != null && actor.ImagenArchivo.Length > 0)
                     {
-                        var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(ImagenArchivo.FileName);
+                        // Eliminar la imagen anterior del servidor
+                        if (!string.IsNullOrEmpty(actorExistente.ImagenRuta))
+                        {
+                            var rutaAnterior = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", actorExistente.ImagenRuta.TrimStart('/'));
+                            if (System.IO.File.Exists(rutaAnterior))
+                            {
+                                System.IO.File.Delete(rutaAnterior);
+                            }
+                        }
+
+                        //Guardar nueva imagen
+                        var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(actor.ImagenArchivo.FileName);
                         var ruta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagenes", nombreArchivo);
 
                         using (var stream = new FileStream(ruta, FileMode.Create))
                         {
-                            await ImagenArchivo.CopyToAsync(stream);
+                            await actor.ImagenArchivo.CopyToAsync(stream);
                         }
 
-                        actorOriginal.ImagenRuta = "/imagenes/" + nombreArchivo;
+                        actor.ImagenRuta = "/imagenes/" + nombreArchivo;
+                    }
+                    else
+                    {
+                        // Recuperar la imagen anterior de la base de datos
+                        actor.ImagenRuta = actor.ImagenRuta;
                     }
 
+                    _context.Update(actor);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!_context.Actores.Any(e => e.Id == actorEditado.Id))
+                    if (!ActorExists(actor.Id))
+                    {
                         return NotFound();
+                    }
                     else
+                    {
                         throw;
+                    }
                 }
+                return RedirectToAction(nameof(Index));
             }
-            return View(actorEditado);
+
+            ViewData["Id"] = new SelectList(_context.Actores, "Id", "Nombre", actor.Id);
+            return View(actor);
         }
-
-
-
 
 
         // GET: Actores/Delete/5

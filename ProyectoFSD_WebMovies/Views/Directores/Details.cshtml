@@ -1,62 +1,48 @@
 ﻿@model ProyectoFSD_WebMovies.Models.Director
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Details";
 }
 
-<h1>Edit</h1>
-<h4>Director</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Id" />
+<h1>Detalles</h1>
 
-            <div class="form-group">
-                <label asp-for="Nombre" class="control-label"></label>
-                <input asp-for="Nombre" class="form-control" />
-                <span asp-validation-for="Nombre" class="text-danger"></span>
-            </div>
+<div>
+    <h4>Director</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
 
-            <div class="form-group">
-                <label asp-for="Nacionalidad" class="control-label"></label>
-                <input asp-for="Nacionalidad" class="form-control" />
-                <span asp-validation-for="Nacionalidad" class="text-danger"></span>
-            </div>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Nacionalidad)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Nacionalidad)
+        </dd>
 
-            <div class="form-group">
-                <label asp-for="FechaNacimiento" class="control-label"></label>
-                <input asp-for="FechaNacimiento" class="form-control" />
-                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
-            </div>
-
-            <div class="form-group">
-                <label>Imagen actual:</label><br />
-                @if (!string.IsNullOrEmpty(Model.ImagenRuta))
-                {
-                    <img src="@Model.ImagenRuta" width="100" height="140" />
-                }
-            </div>
-
-            <div class="form-group">
-                <label class="control-label">Subir nueva imagen</label>
-                <input type="file" name="ImagenArchivo" class="form-control" />
-            </div>
-
-            <div class="form-group">
-                <input type="submit" value="Guardar" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaNacimiento)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FechaNacimiento)
+        </dd>
+        <dd class="col-sm-10">
+            @if (!string.IsNullOrEmpty(Model.ImagenRuta))
+            {
+                <div class="form-group">
+                    <b>Imagen Director:</b><br />
+                    <img src="@Model.ImagenRuta" style="width: 200px; height: 300px; object-fit: cover;" />
+                </div>
+            }
+        </dd>
+    </dl>
 </div>
 
 <div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
     <a asp-action="Index">Volver a la lista</a>
 </div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-}

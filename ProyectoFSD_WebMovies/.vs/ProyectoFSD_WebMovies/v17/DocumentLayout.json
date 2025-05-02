@@ -1,166 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:controllers\\peliculascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\peliculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\peliculas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\directores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\actores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\actores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\directores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\directores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\directores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\controllers\\directorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\controllers\\directorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:controllers\\directorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\actores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\actores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\actores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\actores\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:controllers\\actorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\actores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\actores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250501204747_ActualizarDirectores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20250501204747_ActualizarDirectores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\directores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\peliculas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:controllers\\generoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\generos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\generos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\peliculas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\peliculas\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\views\\peliculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\views\\peliculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\peliculas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\proyectofsd_webmovies.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:proyectofsd_webmovies.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\views\\directores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\migrations\\20250428002655_actualizacionmodelopeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:migrations\\20250428002655_actualizacionmodelopeliculas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\views\\directores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:views\\directores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\migrations\\20250430153752_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:migrations\\20250430153752_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\migrations\\20250501030344_a\u00F1adircampoimagenruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:migrations\\20250501030344_a\u00F1adircampoimagenruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\luis flores\\source\\repos\\proyectofsd_movies\\proyectofsd_webmovies\\migrations\\20250501005025_cambios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:migrations\\20250501005025_cambios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|c:\\users\\usuario\\desktop\\bootcamp full stack\\modulo 8 - backend pro tool\\proyecto\\proyectofsd_webmovies\\models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68E51639-B97A-4852-86FF-4B204423C840}|ProyectoFSD_WebMovies.csproj|solutionrelative:models\\pelicula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -170,519 +42,111 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Peliculas\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Peliculas\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T03:15:19.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Directores\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Directores\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T20:58:04.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PeliculasController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\PeliculasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PeliculasController.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\PeliculasController.cs",
-              "RelativeToolTip": "Controllers\\PeliculasController.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAUwLoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:37:39.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DirectoresController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\DirectoresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DirectoresController.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\DirectoresController.cs",
-              "RelativeToolTip": "Controllers\\DirectoresController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwKAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:35:50.728Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Peliculas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Peliculas\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:16:20.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Directores\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Create.cshtml",
-              "RelativeToolTip": "Views\\Directores\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T00:04:49.782Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Title": "DirectoresController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Controllers\\DirectoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DirectoresController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Controllers\\DirectoresController.cs",
+              "RelativeToolTip": "Controllers\\DirectoresController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAuwJsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:42:37.78Z",
+              "WhenOpened": "2025-05-02T04:18:10.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Actores\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Create.cshtml",
-              "RelativeToolTip": "Views\\Actores\\Create.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Directores\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Directores\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Directores\\Create.cshtml",
+              "RelativeToolTip": "Views\\Directores\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T20:14:31.948Z",
+              "WhenOpened": "2025-05-02T04:10:48.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PeliculasController.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Controllers\\PeliculasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PeliculasController.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Controllers\\PeliculasController.cs",
+              "RelativeToolTip": "Controllers\\PeliculasController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAwJkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T04:10:05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Peliculas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Create.cshtml",
+              "RelativeToolTip": "Views\\Peliculas\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T04:09:37.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Directores\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Directores\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Directores\\Index.cshtml",
+              "RelativeToolTip": "Views\\Directores\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T04:04:06.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Peliculas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Peliculas\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T04:03:57.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Director.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Models\\Director.cs",
+              "RelativeDocumentMoniker": "Models\\Director.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Models\\Director.cs",
+              "RelativeToolTip": "Models\\Director.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T04:03:32.65Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Directores\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Index.cshtml",
-              "RelativeToolTip": "Views\\Directores\\Index.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAwwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:15:47.338Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Actores\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Details.cshtml",
-              "RelativeToolTip": "Views\\Actores\\Details.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T02:51:43.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Actor.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Actor.cs",
-              "RelativeDocumentMoniker": "Models\\Actor.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Actor.cs",
-              "RelativeToolTip": "Models\\Actor.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:14:41.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Genero.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Genero.cs",
-              "RelativeDocumentMoniker": "Models\\Genero.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Genero.cs",
-              "RelativeToolTip": "Models\\Genero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:00:53.783Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ActoresController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\ActoresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ActoresController.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\ActoresController.cs",
-              "RelativeToolTip": "Controllers\\ActoresController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:34:48.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Directores\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Directores\\Edit.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T20:19:08.66Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Actores\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Index.cshtml",
-              "RelativeToolTip": "Views\\Actores\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:15:05.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\Actores\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Actores\\Edit.cshtml",
-              "RelativeToolTip": "Views\\Actores\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T02:58:04.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "20250501204747_ActualizarDirectores.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250501204747_ActualizarDirectores.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250501204747_ActualizarDirectores.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250501204747_ActualizarDirectores.cs",
-              "RelativeToolTip": "Migrations\\20250501204747_ActualizarDirectores.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T20:47:47.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Director.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Director.cs",
-              "RelativeDocumentMoniker": "Models\\Director.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Director.cs",
-              "RelativeToolTip": "Models\\Director.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:09:55.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Directores\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Directores\\Details.cshtml",
-              "RelativeToolTip": "Views\\Directores\\Details.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T20:19:23.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
               "Title": "Pelicula.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Pelicula.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Models\\Pelicula.cs",
               "RelativeDocumentMoniker": "Models\\Pelicula.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\Pelicula.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\Models\\Pelicula.cs",
               "RelativeToolTip": "Models\\Pelicula.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA4AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T05:00:21.493Z",
+              "WhenOpened": "2025-05-02T04:02:43.211Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:45:03.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T23:29:13.421Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAACMAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:04:32.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-30T15:19:28.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-27T23:40:22.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Data\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContextFactory.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Data\\AppDbContextFactory.cs",
-              "RelativeToolTip": "Data\\AppDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:45:13.976Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "GenerosController.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\GenerosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\GenerosController.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Controllers\\GenerosController.cs",
-              "RelativeToolTip": "Controllers\\GenerosController.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:36:35.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T23:29:57.654Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Generos\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Generos\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Generos\\Index.cshtml",
-              "RelativeToolTip": "Views\\Generos\\Index.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAADwvyoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:15:50.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T18:49:28Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T18:54:26.642Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-30T19:04:10.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvyAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-05-01T03:54:28.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Peliculas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Create.cshtml",
-              "RelativeToolTip": "Views\\Peliculas\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T00:05:12.428Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Peliculas\\Details.cshtml",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Views\\Peliculas\\Details.cshtml",
-              "RelativeToolTip": "Views\\Peliculas\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-01T03:15:39.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "20250501030344_A\u00F1adirCampoImagenRuta.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250501030344_A\u00F1adirCampoImagenRuta.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250501030344_A\u00F1adirCampoImagenRuta.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250501030344_A\u00F1adirCampoImagenRuta.cs",
-              "RelativeToolTip": "Migrations\\20250501030344_A\u00F1adirCampoImagenRuta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T03:03:45.104Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "20250430153752_InitialMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250430153752_InitialMigration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250430153752_InitialMigration.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250430153752_InitialMigration.cs",
-              "RelativeToolTip": "Migrations\\20250430153752_InitialMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T15:37:52.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "20250501005025_Cambios.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250501005025_Cambios.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250501005025_Cambios.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250501005025_Cambios.cs",
-              "RelativeToolTip": "Migrations\\20250501005025_Cambios.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:50:25.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "20250428002655_ActualizacionModeloPeliculas.cs",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250428002655_ActualizacionModeloPeliculas.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250428002655_ActualizacionModeloPeliculas.cs",
-              "ToolTip": "C:\\Users\\Luis Flores\\source\\repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\Migrations\\20250428002655_ActualizacionModeloPeliculas.cs",
-              "RelativeToolTip": "Migrations\\20250428002655_ActualizacionModeloPeliculas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T00:26:55.681Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "ProyectoFSD_WebMovies.csproj",
-              "DocumentMoniker": "C:\\Users\\Luis Flores\\Source\\Repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj",
-              "RelativeDocumentMoniker": "ProyectoFSD_WebMovies.csproj",
-              "ToolTip": "C:\\Users\\Luis Flores\\Source\\Repos\\ProyectoFSD_Movies\\ProyectoFSD_WebMovies\\ProyectoFSD_WebMovies.csproj",
-              "RelativeToolTip": "ProyectoFSD_WebMovies.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-27T23:28:35.109Z"
             }
           ]
         }

@@ -40,15 +40,11 @@
                         {
                             <img src="@item.ImagenRuta" width="60" height="90" style="object-fit:cover;" />
                         }
-                        else
-                        {
-                            <img src="/imagenes/default.png" width="60" height="90" style="object-fit:cover;" />
-                        }
                     </td>
                     <td>
-                        <a class="btn btn-sm btn-warning" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
-                        <a class="btn btn-sm btn-info text-white" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
-                        <a class="btn btn-sm btn-danger" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
+                        <a class="btn btn-sm btn-warning m-1" asp-action="Edit" asp-route-id="@item.Id">Editar</a>
+                        <a class="btn btn-sm btn-info text-white m-1" asp-action="Details" asp-route-id="@item.Id">Detalles</a>
+                        <a class="btn btn-sm btn-danger m-1" asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>
                     </td>
                 </tr>
             }

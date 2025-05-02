@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
 namespace ProyectoFSD_WebMovies.Models
 {
@@ -10,6 +11,9 @@ namespace ProyectoFSD_WebMovies.Models
         public int Duracion { get; set; }
         public DateTime FechaEstreno { get; set; }
         public string? ImagenRuta { get; set; }
+
+        [NotMapped]
+        public IFormFile? ImagenArchivo { get; set; }
 
         // Genero: FK y Navegacion
         public int GeneroId { get; set; }
@@ -24,7 +28,7 @@ namespace ProyectoFSD_WebMovies.Models
         // Actor: FK
 
         [ValidateNever]
-        public ICollection<Actor>? Actores { get; set; }
+        public ICollection<Actor> Actores { get; set; }
 
     }
 }

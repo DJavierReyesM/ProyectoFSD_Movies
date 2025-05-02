@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.IO;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ProyectoFSD_WebMovies.Data;
@@ -45,19 +46,19 @@ namespace ProyectoFSD_WebMovies.Controllers
         // POST: Peliculas/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Pelicula pelicula, IFormFile ImagenArchivo)
+        public async Task<IActionResult> Create(Pelicula pelicula)
         {
             if (ModelState.IsValid)
             {
-                if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                if (pelicula.ImagenArchivo != null && pelicula.ImagenArchivo.Length > 0)
                 {
                     var carpeta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "imagenes");
-                    var nombreUnico = Guid.NewGuid().ToString() + "_" + Path.GetFileName(ImagenArchivo.FileName);
+                    var nombreUnico = Guid.NewGuid().ToString() + "_" + Path.GetFileName(pelicula.ImagenArchivo.FileName);
                     var rutaArchivo = Path.Combine(carpeta, nombreUnico);
 
                     using (var stream = new FileStream(rutaArchivo, FileMode.Create))
                     {
-                        await ImagenArchivo.CopyToAsync(stream);
+                        await pelicula.ImagenArchivo.CopyToAsync(stream);
                     }
 
                     pelicula.ImagenRuta = "/imagenes/" + nombreUnico;
@@ -90,52 +91,73 @@ namespace ProyectoFSD_WebMovies.Controllers
         // POST: Peliculas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Pelicula peliculaEditada, IFormFile ImagenArchivo)
+        public async Task<IActionResult> Edit(int id, Pelicula pelicula)
         {
-            if (id != peliculaEditada.Id) return NotFound();
+            if (id != pelicula.Id) return NotFound();
+
+            // Recuperar director anterior de la base de datos
+            var peliculaExistente = await _context.Peliculas.AsNoTracking().FirstOrDefaultAsync(d => d.Id == id);
+            if (peliculaExistente == null)
+                return NotFound();
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    var peliculaOriginal = await _context.Peliculas.FindAsync(id);
-                    if (peliculaOriginal == null) return NotFound();
-
-                    peliculaOriginal.Titulo = peliculaEditada.Titulo;
-                    peliculaOriginal.Sinopsis = peliculaEditada.Sinopsis;
-                    peliculaOriginal.Duracion = peliculaEditada.Duracion;
-                    peliculaOriginal.FechaEstreno = peliculaEditada.FechaEstreno;
-                    peliculaOriginal.GeneroId = peliculaEditada.GeneroId;
-                    peliculaOriginal.DirectorId = peliculaEditada.DirectorId;
-
-                    if (ImagenArchivo != null && ImagenArchivo.Length > 0)
+                    if (pelicula.ImagenArchivo != null && pelicula.ImagenArchivo.Length > 0)
                     {
-                        var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(ImagenArchivo.FileName);
+                        // Eliminar la imagen anterior del servidor
+                        if (!string.IsNullOrEmpty(pelicula.ImagenRuta))
+                        {
+                            var rutaAnterior = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", pelicula.ImagenRuta.TrimStart('/'));
+                            if (System.IO.File.Exists(rutaAnterior))
+                            {
+                                System.IO.File.Delete(rutaAnterior);
+                            }
+                        }
+
+                        // Guardar nueva imagen
+                        var nombreArchivo = Guid.NewGuid().ToString() + Path.GetExtension(pelicula.ImagenArchivo.FileName);
                         var ruta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/imagenes", nombreArchivo);
 
                         using (var stream = new FileStream(ruta, FileMode.Create))
                         {
-                            await ImagenArchivo.CopyToAsync(stream);
+                            await pelicula.ImagenArchivo.CopyToAsync(stream);
                         }
 
-                        peliculaOriginal.ImagenRuta = "/imagenes/" + nombreArchivo;
+                        pelicula.ImagenRuta = "/imagenes/" + nombreArchivo;
+                    }
+                    else
+                    {
+                        // Recuperar la imagen anterior de la base de datos
+                        pelicula.ImagenRuta = peliculaExistente.ImagenRuta;
                     }
 
+                    _context.Update(pelicula);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!_context.Peliculas.Any(e => e.Id == peliculaEditada.Id))
+                    if (!PeliculaExists(pelicula.Id))
+                    {
                         return NotFound();
+                    }
                     else
+                    {
                         throw;
+                    }
                 }
+                return RedirectToAction(nameof(Index));
             }
 
-            ViewBag.GeneroId = new SelectList(_context.Generos, "Id", "Nombre", peliculaEditada.GeneroId);
-            ViewBag.DirectorId = new SelectList(_context.Directores, "Id", "Nombre", peliculaEditada.DirectorId);
-            return View(peliculaEditada);
+            ViewData["GeneroId"] = new SelectList(_context.Generos, "Id", "Nombre", pelicula.GeneroId);
+            ViewData["DirectorId"] = new SelectList(_context.Directores, "Id", "Nombre", pelicula.DirectorId);
+            return View(pelicula);
+        }
+
+        private bool PeliculaExists(int id)
+        {
+            return _context.Peliculas.Any(e => e.Id == id);
         }
 
         // GET: Peliculas/Details/5
