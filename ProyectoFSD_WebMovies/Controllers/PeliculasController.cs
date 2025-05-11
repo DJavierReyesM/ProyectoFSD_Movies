@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Drawing.Printing;
+using System.IO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -17,8 +18,10 @@ namespace ProyectoFSD_WebMovies.Controllers
         }
 
         // GET: Peliculas
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string searchString, int page = 1)
         {
+            int pageSize = 4;
+
             var peliculas = from p in _context.Peliculas.Include(p => p.Genero).Include(p => p.Director)
                             select p;
 
@@ -27,10 +30,19 @@ namespace ProyectoFSD_WebMovies.Controllers
                 peliculas = peliculas.Where(p => p.Titulo.Contains(searchString));
             }
 
-            peliculas = peliculas
-                .GroupBy(p => p.Titulo)
-                .Select(g => g.First())
-                .AsQueryable();
+            peliculas = peliculas.OrderBy(a => a.Titulo);
+
+            int totalPeliculas = await peliculas.CountAsync();
+            var peliculas2 = await peliculas
+                                .Skip((page - 1) * pageSize)
+                                .Take(pageSize)
+                                .ToListAsync();
+
+            ViewData["CurrentPage"] = page;
+            ViewData["TotalPages"] = (int)Math.Ceiling(totalPeliculas / (double)pageSize);
+            ViewData["CurrentFilter"] = searchString;
+
+            return View(peliculas2);
 
             return View(await peliculas.ToListAsync());
         }
@@ -198,10 +210,18 @@ namespace ProyectoFSD_WebMovies.Controllers
             var pelicula = await _context.Peliculas.FindAsync(id);
             if (pelicula != null)
             {
-                _context.Peliculas.Remove(pelicula);
-                await _context.SaveChangesAsync();
-            }
+                if (!string.IsNullOrEmpty(pelicula.ImagenRuta))
+                {
+                    var rutaCompleta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", pelicula.ImagenRuta.TrimStart('/'));
 
+                    if (System.IO.File.Exists(rutaCompleta))
+                    {
+                        System.IO.File.Delete(rutaCompleta);
+                    }
+                }
+                _context.Peliculas.Remove(pelicula);
+            }
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }

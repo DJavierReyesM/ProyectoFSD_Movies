@@ -1,3 +1,0 @@
-C:\Users\Usuario\Desktop\Bootcamp Full Stack\Modulo 8 - BackEND PRO TOOL\Proyecto\ProyectoFSD_WebMovies\wwwroot\imagenes\7b3d828f-ec6a-41c0-a9bb-4de13909f320.jpg
-C:\Users\Usuario\Desktop\Bootcamp Full Stack\Modulo 8 - BackEND PRO TOOL\Proyecto\ProyectoFSD_WebMovies\wwwroot\imagenes\a45ba91b-c07d-4b3d-88ef-598dec809d4c.jpg
-C:\Users\Usuario\Desktop\Bootcamp Full Stack\Modulo 8 - BackEND PRO TOOL\Proyecto\ProyectoFSD_WebMovies\wwwroot\imagenes\e4dc2a46-f451-4000-b37e-e98e376f97e3.jpg

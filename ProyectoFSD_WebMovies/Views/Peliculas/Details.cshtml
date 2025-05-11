@@ -4,7 +4,7 @@
     ViewData["Title"] = "Details";
 }
 
-<h1>Details</h1>
+<h1>Detalles</h1>
 
 <div>
     <h4>Pelicula</h4>
@@ -51,13 +51,13 @@
             {
                 <div class="form-group">
                     <b>Poster Pelicula:</b><br />
-                    <img src="@Model.ImagenRuta" style="width: 200px; height: 300px; object-fit: cover;" />
+                    <img src="@Model.ImagenRuta" style="width: 200px; height: auto; object-fit: cover;" />
                 </div>
             }
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a asp-action="Index">Volver a "Películas"</a>
 </div>

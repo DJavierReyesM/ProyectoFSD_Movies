@@ -4,48 +4,51 @@
     ViewData["Title"] = "Create";
 }
 
-<h1>Create</h1>
+<h1>Crear</h1>
 
 <h4>Película</h4>
 <hr />
 <form asp-action="Create" enctype="multipart/form-data">
-    <div class="form-group">
+    <div class="form-group my-2">
         <label asp-for="Titulo" class="control-label"></label>
         <input asp-for="Titulo" class="form-control" />
         <span asp-validation-for="Titulo" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    <div class="form-group my-2">
         <label asp-for="Sinopsis" class="control-label"></label>
-        <input asp-for="Sinopsis" class="form-control" />
+        <textarea asp-for="Sinopsis" class="form-control" rows="3"></textarea>
         <span asp-validation-for="Sinopsis" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    <div class="form-group my-2">
         <label asp-for="Duracion" class="control-label"></label>
         <input asp-for="Duracion" class="form-control" />
         <span asp-validation-for="Duracion" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    <div class="form-group my-2">
         <label asp-for="FechaEstreno" class="control-label"></label>
         <input asp-for="FechaEstreno" class="form-control" />
         <span asp-validation-for="FechaEstreno" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    <div class="form-group my-2">
         <label asp-for="GeneroId" class="control-label"></label>
-        <select asp-for="GeneroId" class="form-control" asp-items="ViewBag.GeneroId"></select>
+        <select asp-for="GeneroId" class="form-control" asp-items="ViewBag.GeneroId" asp-option-label="-- Seleccione su género --"></select>
+        <span asp-validation-for="GeneroId" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    <div class="form-group my-2">
         <label asp-for="DirectorId" class="control-label"></label>
-        <select asp-for="DirectorId" class="form-control" asp-items="ViewBag.DirectorId"></select>
+        <select asp-for="DirectorId" class="form-control" asp-items="ViewBag.DirectorId" asp-option-label="-- Seleccione su género --"></select>
+        <span asp-validation-for="DirectorId" class="text-danger"></span>
     </div>
-    <div class="form-group">
+    <div class="form-group my-2">
         <label>Imagen de la Película</label>
         <input type="file" asp-for="ImagenArchivo" name="ImagenArchivo" class="form-control" />
+        <span asp-validation-for="ImagenArchivo" class="text-danger"></span>
     </div>
     <div class="form-group mt-2">
-        <input type="submit" value="Create" class="btn btn-primary" />
+        <input type="submit" value="Crear película" class="btn btn-success" />
     </div>
 </form>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="my-3">
+    <a asp-action="Index">Volver a "Películas"</a>
 </div>

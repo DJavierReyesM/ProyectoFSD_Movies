@@ -4,65 +4,66 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Editar</h1>
 
 <h4>Película</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-8">
         <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group">
+
+            <div class="form-group my-2">
                 <label asp-for="Titulo" class="control-label"></label>
                 <input asp-for="Titulo" class="form-control" />
                 <span asp-validation-for="Titulo" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-2">
                 <label asp-for="Sinopsis" class="control-label"></label>
-                <input asp-for="Sinopsis" class="form-control" />
+                <textarea asp-for="Sinopsis" class="form-control" rows="3"></textarea>
                 <span asp-validation-for="Sinopsis" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="Duracion" class="control-label"></label>
+            <div class="form-group my-2">
+                <label asp-for="Duracion" class="control-label">Duracion (minutos)</label>
                 <input asp-for="Duracion" class="form-control" />
                 <span asp-validation-for="Duracion" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-2">
                 <label asp-for="FechaEstreno" class="control-label"></label>
                 <input asp-for="FechaEstreno" class="form-control" />
                 <span asp-validation-for="FechaEstreno" class="text-danger"></span>
             </div>
             @if (!string.IsNullOrEmpty(Model.ImagenRuta)) //Mostrar la imagen actual antes del input
             {
-                <div class="form-group">
+                <div class="form-group my-2">
                     <label>Poster actual Pelicula:</label><br />
-                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:100px;height:auto;" />
+                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:200px;height:auto;" />
                 </div>
             }
-            <div class="form-group">
+            <div class="form-group my-2">
                 <label>Cambiar Poster de la Película</label>
                 <input type="file" name="ImagenArchivo" class="form-control" />
             </div>
-            <div class="form-group">
+            <div class="form-group my-2">
                 <label asp-for="GeneroId" class="control-label"></label>
                 <select asp-for="GeneroId" class="form-control" asp-items="ViewBag.GeneroId"></select>
                 <span asp-validation-for="GeneroId" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group my-2">
                 <label asp-for="DirectorId" class="control-label"></label>
                 <select asp-for="DirectorId" class="form-control" asp-items="ViewBag.DirectorId"></select>
                 <span asp-validation-for="DirectorId" class="text-danger"></span>
             </div>
             <div class="form-group mt-2">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="my-3">
+    <a asp-action="Index">Volver a "Películas"</a>
 </div>
 
 @section Scripts {

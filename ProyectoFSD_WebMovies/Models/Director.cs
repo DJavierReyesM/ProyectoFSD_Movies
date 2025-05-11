@@ -16,7 +16,7 @@ namespace ProyectoFSD_WebMovies.Models
         public string Nombre { get; set; }
 
         [Required(ErrorMessage = "La nacionalidad es obligatoria.")]
-        [StringLength(50, ErrorMessage = "La nacionalidad no puede tener más de 30 caracteres.")]
+        [StringLength(30, ErrorMessage = "La nacionalidad no puede tener más de 30 caracteres.")]
         public string Nacionalidad { get; set; }
 
         [Required(ErrorMessage = "La fecha de nacimiento es obligatoria.")]
