@@ -38,7 +38,9 @@
                     <td>
                         @if (!string.IsNullOrEmpty(item.ImagenRuta))
                         {
-                            <img src="@item.ImagenRuta" width="60" height="90" style="object-fit:cover;" />
+                            <div class="d-flex justify-content-center">
+                                <img src="@item.ImagenRuta" width="60" height="90" style="object-fit:cover;" />
+                            </div>
                         }
                     </td>
                     <td>

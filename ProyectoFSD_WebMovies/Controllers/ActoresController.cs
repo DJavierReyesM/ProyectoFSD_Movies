@@ -21,7 +21,7 @@ namespace ProyectoFSD_WebMovies.Controllers
         // GET: Actores
         public async Task<IActionResult> Index(string searchString, int page = 1)
         {
-            int pageSize = 5;
+            int pageSize = 4;
 
             var actores = _context.Actores.AsQueryable();
 

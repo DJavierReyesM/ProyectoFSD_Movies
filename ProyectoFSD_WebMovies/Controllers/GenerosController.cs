@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -21,8 +22,10 @@ namespace ProyectoFSD_WebMovies.Controllers
 
         // GET: Generos
        
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string searchString, int page = 1)
         {
+            int pageSize = 4;
+
             var generos = from g in _context.Generos
                           select g;
 
@@ -31,12 +34,20 @@ namespace ProyectoFSD_WebMovies.Controllers
                 generos = generos.Where(g => g.Nombre.Contains(searchString));
             }
 
-            generos = generos
-                .GroupBy(g => g.Nombre)
-                .Select(g => g.First())
-                .AsQueryable();
+            generos = generos.OrderBy(g => g.Nombre);
 
-            return View(await generos.ToListAsync());
+            int totalGeneros = await generos.CountAsync();
+
+            var generos2 = await generos
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToListAsync();
+
+            ViewData["CurrentPage"] = page;
+            ViewData["TotalPages"] = (int)Math.Ceiling(totalGeneros / (double)pageSize);
+            ViewData["CurrentFilter"] = searchString;
+
+            return View(generos2);
         }
 
 

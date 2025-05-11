@@ -4,41 +4,56 @@
     ViewData["Title"] = "Editar Director";
 }
 
-<h1>Editar Director</h1>
+<h1>Editar</h1>
 <hr />
 <div class="row">
+    <h4>Director/a</h4>
     <div class="col-md-4">
         <form asp-action="Edit" enctype="multipart/form-data">
             <input type="hidden" asp-for="Id" />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="Nombre" class="control-label"></label>
                 <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Nacionalidad" class="control-label"></label>
                 <input asp-for="Nacionalidad" class="form-control" />
+                <span asp-validation-for="Nacionalidad" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="FechaNacimiento" class="control-label"></label>
                 <input asp-for="FechaNacimiento" class="form-control" />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
             </div>
             @if (!string.IsNullOrEmpty(Model.ImagenRuta)) //Mostrar la imagen actual antes del input
             {
                 <div class="form-group">
                     <label>Imagen actual Director:</label><br />
-                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:100px;height:auto;" />
+                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:200px;height:auto;" />
+                    <span asp-validation-for="ImagenRuta" class="text-danger"></span>
                 </div>
             }
             <div class="form-group">
-                <label>Cambiar Imagen del Actor</label>
-                <input type="file" name="ImagenArchivo" class="form-control" />
+                <label asp-for="ImagenArchivo" class="control-label">Cambiar Imagen del Director</label>
+                <input asp-for="ImagenArchivo" type="file" accept=".jpg,.jpeg,.png" class="form-control" />
+                <span asp-validation-for="ImagenArchivo" class="text-danger"></span>
             </div>
             <div class="form-group mt-3">
-                <input type="submit" value="Guardar" class="btn btn-primary" />
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
-<div>
+<div class="my-3">
     <a asp-action="Index">Volver a la lista</a>
 </div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

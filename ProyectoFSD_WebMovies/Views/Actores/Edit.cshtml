@@ -5,10 +5,9 @@
 }
 
 <h1>Editar</h1>
-
-<h4>Información del Actor/Actriz</h4>
 <hr />
 <div class="row">
+    <h4>Actor/Actriz</h4>
     <div class="col-md-8">
         <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
@@ -37,6 +36,7 @@
                 <div class="form-group my-2">
                     <label>Imagen actual actor/actriz:</label><br />
                     <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:200px;height:auto;" />
+                    <span asp-validation-for="ImagenRuta" class="text-danger"></span>
                 </div>
             }
 

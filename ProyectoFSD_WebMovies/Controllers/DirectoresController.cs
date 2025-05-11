@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Numerics;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -18,8 +19,10 @@ namespace ProyectoFSD_WebMovies.Controllers
             _context = context;
         }
 
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string searchString, int page = 1)
         {
+            int pageSize = 4;
+
             var directores = from d in _context.Directores
                              select d;
 
@@ -28,12 +31,20 @@ namespace ProyectoFSD_WebMovies.Controllers
                 directores = directores.Where(d => d.Nombre.Contains(searchString));
             }
 
-            directores = directores
-                .GroupBy(d => d.Nombre)
-                .Select(g => g.First())
-                .AsQueryable();
+            directores = directores.OrderBy(d => d.Nombre);
 
-            return View(await directores.ToListAsync());
+            int totalDirectores = await directores.CountAsync();
+
+            var directores2 = await directores
+                    .Skip((page - 1) * pageSize)
+                    .Take(pageSize)
+                    .ToListAsync();
+
+            ViewData["CurrentPage"] = page;
+            ViewData["TotalPages"] = (int)Math.Ceiling(totalDirectores / (double)pageSize);
+            ViewData["CurrentFilter"] = searchString;
+
+            return View(directores2);
         }
 
         public async Task<IActionResult> Details(int? id)
@@ -181,10 +192,20 @@ namespace ProyectoFSD_WebMovies.Controllers
             var director = await _context.Directores.FindAsync(id);
             if (director != null)
             {
-                _context.Directores.Remove(director);
-                await _context.SaveChangesAsync();
-            }
 
+                if (!string.IsNullOrEmpty(director.ImagenRuta))
+                {
+                    var rutaCompleta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", director.ImagenRuta.TrimStart('/'));
+
+                    if (System.IO.File.Exists(rutaCompleta))
+                    {
+                        System.IO.File.Delete(rutaCompleta);
+                    }
+                }
+                _context.Directores.Remove(director);
+                
+            }
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }
