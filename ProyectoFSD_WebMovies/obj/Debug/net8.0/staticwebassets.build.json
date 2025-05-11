@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Iz0Cjin5PUFiMnvoQEje+CnMDAv3nE3H3wh10h1hfpk=",
+  "Hash": "fxQFadBOghf1zZ1COtnPYSacbkdFb8S7YPiZzmJISLg=",
   "Source": "ProyectoFSD_WebMovies",
   "BasePath": "_content/ProyectoFSD_WebMovies",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\0140941c-2733-4ebf-8410-e80e36bead2a.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\01d57587-71eb-4ad9-8df9-a68716947114.jpg",
+      "SourceId": "ProyectoFSD_WebMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\",
+      "BasePath": "_content/ProyectoFSD_WebMovies",
+      "RelativePath": "imagenes/01d57587-71eb-4ad9-8df9-a68716947114#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v69l8nglp9",
+      "Integrity": "xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\01d57587-71eb-4ad9-8df9-a68716947114.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\123acd47-454f-48f9-b023-10f648fc5402.jpg",
@@ -267,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\5669b634-9cf1-4e84-a7cc-e86316a05020.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\6afb3808-7a23-4cca-bbb2-4ca34fe9257b.jpg",
+      "SourceId": "ProyectoFSD_WebMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\",
+      "BasePath": "_content/ProyectoFSD_WebMovies",
+      "RelativePath": "imagenes/6afb3808-7a23-4cca-bbb2-4ca34fe9257b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v69l8nglp9",
+      "Integrity": "xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\6afb3808-7a23-4cca-bbb2-4ca34fe9257b.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\7b3d828f-ec6a-41c0-a9bb-4de13909f320.jpg",
@@ -647,6 +689,27 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\d9346333-1b51-49cb-aa00-1fe98ca5d733_gozyuger.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\dcee18f0-0545-42d2-8c91-a976c0aaf725.jpg",
+      "SourceId": "ProyectoFSD_WebMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\",
+      "BasePath": "_content/ProyectoFSD_WebMovies",
+      "RelativePath": "imagenes/dcee18f0-0545-42d2-8c91-a976c0aaf725#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v69l8nglp9",
+      "Integrity": "xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\dcee18f0-0545-42d2-8c91-a976c0aaf725.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\e4dc2a46-f451-4000-b37e-e98e376f97e3.jpg",
       "SourceId": "ProyectoFSD_WebMovies",
       "SourceType": "Discovered",
@@ -689,6 +752,27 @@
       "OriginalItemSpec": "wwwroot\\imagenes\\edf3dc07-15f0-473e-a580-a7c156246e3c.jpg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\f86c647e-cdea-4497-a634-0501cd5b2b41.jpg",
+      "SourceId": "ProyectoFSD_WebMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\",
+      "BasePath": "_content/ProyectoFSD_WebMovies",
+      "RelativePath": "imagenes/f86c647e-cdea-4497-a634-0501cd5b2b41#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v69l8nglp9",
+      "Integrity": "xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\f86c647e-cdea-4497-a634-0501cd5b2b41.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\faffd22c-6730-4a60-85c7-f53e77580e30.jpg",
       "SourceId": "ProyectoFSD_WebMovies",
       "SourceType": "Discovered",
@@ -729,6 +813,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imagenes\\fd8477fb-d0ff-47d7-ade5-a921922aa850.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\ff3dc925-4be3-4aa2-b822-90d57ffb7349.jpg",
+      "SourceId": "ProyectoFSD_WebMovies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\",
+      "BasePath": "_content/ProyectoFSD_WebMovies",
+      "RelativePath": "imagenes/ff3dc925-4be3-4aa2-b822-90d57ffb7349#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v69l8nglp9",
+      "Integrity": "xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imagenes\\ff3dc925-4be3-4aa2-b822-90d57ffb7349.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\js\\site.js",
@@ -2197,6 +2302,88 @@
       ]
     },
     {
+      "Route": "imagenes/01d57587-71eb-4ad9-8df9-a68716947114.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\01d57587-71eb-4ad9-8df9-a68716947114.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:50:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/01d57587-71eb-4ad9-8df9-a68716947114.v69l8nglp9.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\01d57587-71eb-4ad9-8df9-a68716947114.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:50:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v69l8nglp9"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/01d57587-71eb-4ad9-8df9-a68716947114.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
       "Route": "imagenes/123acd47-454f-48f9-b023-10f648fc5402.jpg",
       "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\123acd47-454f-48f9-b023-10f648fc5402.jpg",
       "Selectors": [],
@@ -2767,6 +2954,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-w+je5Fikv2B/C8vN/slJNpCwI+Wzw0SNnbCxjBMGIkU="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/6afb3808-7a23-4cca-bbb2-4ca34fe9257b.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\6afb3808-7a23-4cca-bbb2-4ca34fe9257b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:52:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/6afb3808-7a23-4cca-bbb2-4ca34fe9257b.v69l8nglp9.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\6afb3808-7a23-4cca-bbb2-4ca34fe9257b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:52:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v69l8nglp9"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/6afb3808-7a23-4cca-bbb2-4ca34fe9257b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
         }
       ]
     },
@@ -4247,6 +4516,88 @@
       ]
     },
     {
+      "Route": "imagenes/dcee18f0-0545-42d2-8c91-a976c0aaf725.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\dcee18f0-0545-42d2-8c91-a976c0aaf725.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:50:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/dcee18f0-0545-42d2-8c91-a976c0aaf725.v69l8nglp9.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\dcee18f0-0545-42d2-8c91-a976c0aaf725.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:50:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v69l8nglp9"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/dcee18f0-0545-42d2-8c91-a976c0aaf725.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
       "Route": "imagenes/e4dc2a46-f451-4000-b37e-e98e376f97e3.gktifjecgj.jpg",
       "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\e4dc2a46-f451-4000-b37e-e98e376f97e3.jpg",
       "Selectors": [],
@@ -4411,6 +4762,88 @@
       ]
     },
     {
+      "Route": "imagenes/f86c647e-cdea-4497-a634-0501cd5b2b41.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\f86c647e-cdea-4497-a634-0501cd5b2b41.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:51:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/f86c647e-cdea-4497-a634-0501cd5b2b41.v69l8nglp9.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\f86c647e-cdea-4497-a634-0501cd5b2b41.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:51:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v69l8nglp9"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/f86c647e-cdea-4497-a634-0501cd5b2b41.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
       "Route": "imagenes/faffd22c-6730-4a60-85c7-f53e77580e30.jpg",
       "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\faffd22c-6730-4a60-85c7-f53e77580e30.jpg",
       "Selectors": [],
@@ -4567,6 +5000,88 @@
         {
           "Name": "label",
           "Value": "imagenes/fd8477fb-d0ff-47d7-ade5-a921922aa850.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/ff3dc925-4be3-4aa2-b822-90d57ffb7349.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\ff3dc925-4be3-4aa2-b822-90d57ffb7349.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:54:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64="
+        }
+      ]
+    },
+    {
+      "Route": "imagenes/ff3dc925-4be3-4aa2-b822-90d57ffb7349.v69l8nglp9.jpg",
+      "AssetFile": "C:\\Users\\Usuario\\Desktop\\Bootcamp Full Stack\\Modulo 8 - BackEND PRO TOOL\\Proyecto\\ProyectoFSD_WebMovies\\wwwroot\\imagenes\\ff3dc925-4be3-4aa2-b822-90d57ffb7349.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "50939"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xyWKOmY7/AtIUy26nkc8WPNvk+uIzPR4p06fcznxK64=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 11 May 2025 00:54:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v69l8nglp9"
+        },
+        {
+          "Name": "label",
+          "Value": "imagenes/ff3dc925-4be3-4aa2-b822-90d57ffb7349.jpg"
         },
         {
           "Name": "integrity",

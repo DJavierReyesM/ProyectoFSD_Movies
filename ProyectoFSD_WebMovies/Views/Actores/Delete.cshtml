@@ -4,13 +4,13 @@
     ViewData["Title"] = "Delete";
 }
 
-<h1>Delete</h1>
+<h1>Eliminar</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>¿Estás seguro de eliminar el siguiente registro?</h3>
 <div>
-    <h4>Actor</h4>
     <hr />
     <dl class="row">
+        <h4>Información</h4>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Nombre)
         </dt>
@@ -33,8 +33,8 @@
         {
             <dd class = "col-sm-10">
                 <div class="form-group">
-                    <b>Portada actual:</b><br />
-                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:100px;height:auto;" />
+                    <b>Imagen actual:</b><br />
+                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:200px;height:auto;" />
                 </div>
             </dd>
         }
@@ -42,7 +42,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="Id" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Eliminar" class="btn btn-danger" /> |
+        <a asp-action="Index">Volver a "Actores"</a>
     </form>
 </div>

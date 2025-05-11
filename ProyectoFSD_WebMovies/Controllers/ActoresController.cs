@@ -19,22 +19,31 @@ namespace ProyectoFSD_WebMovies.Controllers
             _context = context;
         }
         // GET: Actores
-        public async Task<IActionResult> Index(string searchString)
+        public async Task<IActionResult> Index(string searchString, int page = 1)
         {
-            var actores = from a in _context.Actores
-                          select a;
+            int pageSize = 5;
+
+            var actores = _context.Actores.AsQueryable();
 
             if (!string.IsNullOrEmpty(searchString))
             {
                 actores = actores.Where(a => a.Nombre.Contains(searchString));
             }
 
-            actores = actores
-                .GroupBy(a => a.Nombre)
-                .Select(g => g.First())
-                .AsQueryable();
+            actores = actores.OrderBy(a => a.Nombre);
 
-            return View(await actores.ToListAsync());
+            int totalActores = await actores.CountAsync();
+
+            var actores2 = await actores
+                                .Skip((page - 1) * pageSize)
+                                .Take(pageSize)
+                                .ToListAsync();
+
+            ViewData["CurrentPage"] = page;
+            ViewData["TotalPages"] = (int)Math.Ceiling(totalActores / (double)pageSize);
+            ViewData["CurrentFilter"] = searchString;
+
+            return View(actores2);
         }
 
 
@@ -157,7 +166,7 @@ namespace ProyectoFSD_WebMovies.Controllers
                     else
                     {
                         // Recuperar la imagen anterior de la base de datos
-                        actor.ImagenRuta = actor.ImagenRuta;
+                        actor.ImagenRuta = actorExistente.ImagenRuta;
                     }
 
                     _context.Update(actor);
@@ -208,6 +217,15 @@ namespace ProyectoFSD_WebMovies.Controllers
             var actor = await _context.Actores.FindAsync(id);
             if (actor != null)
             {
+                if (!string.IsNullOrEmpty(actor.ImagenRuta)) 
+                {
+                    var rutaCompleta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", actor.ImagenRuta.TrimStart('/'));
+
+                    if (System.IO.File.Exists(rutaCompleta)) 
+                    {
+                        System.IO.File.Delete(rutaCompleta);
+                    }
+                }
                 _context.Actores.Remove(actor);
             }
 

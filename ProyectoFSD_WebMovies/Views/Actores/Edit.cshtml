@@ -4,53 +4,61 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<h1>Editar</h1>
 
-<h4>Actor</h4>
+<h4>Información del Actor/Actriz</h4>
 <hr />
 <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-8">
         <form asp-action="Edit" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            <div class="form-group">
+
+            <div class="form-group my-2">
                 <label asp-for="Nombre" class="control-label"></label>
                 <input asp-for="Nombre" class="form-control" />
                 <span asp-validation-for="Nombre" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group my-2">
                 <label asp-for="Biografia" class="control-label"></label>
-                <input asp-for="Biografia" class="form-control" />
+                <textarea asp-for="Biografia" class="form-control" rows="3"></textarea>
                 <span asp-validation-for="Biografia" class="text-danger"></span>
             </div>
-            <div class="form-group">
+
+            <div class="form-group my-2">
                 <label asp-for="FechaNacimiento" class="control-label"></label>
-                <input asp-for="FechaNacimiento" class="form-control" />
+                <input asp-for="FechaNacimiento" type="date" class="form-control" />
                 <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
             </div>
-            @if (!string.IsNullOrEmpty(Model.ImagenRuta)) //Mostrar la imagen actual antes del input
+
+            @if (!string.IsNullOrEmpty(Model.ImagenRuta))
             {
-                <div class="form-group">
-                    <label>Imagen actual actor:</label><br />
-                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:100px;height:auto;" />
+                <div class="form-group my-2">
+                    <label>Imagen actual actor/actriz:</label><br />
+                    <img src="@Model.ImagenRuta" alt="Imagen actual" style="width:200px;height:auto;" />
                 </div>
             }
-            <div class="form-group">
-                <label>Cambiar Imagen del Actor</label>
-                <input type="file" name="ImagenArchivo" class="form-control" />
+
+            <div class="form-group my-2">
+                <label asp-for="ImagenArchivo" class="control-label">Cambiar Imagen del Actor</label>
+                <input asp-for="ImagenArchivo" type="file" accept=".jpg,.jpeg,.png" class="form-control" />
+                <span asp-validation-for="ImagenArchivo" class="text-danger"></span>
             </div>
 
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+            <div class="form-group mt-3">
+                <input type="submit" value="Guardar cambios" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="my-3 ">
+    <a asp-action="Index">Volver a "Actores"</a>
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }
