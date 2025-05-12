@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProyectoFSD_WebMovies")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79911389aa4e4c8ae1079bed1592289ac4d94a78")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8ea26398fa3b23147657889eb0b8c5573268440")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProyectoFSD_WebMovies")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProyectoFSD_WebMovies")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
