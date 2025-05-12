@@ -10,10 +10,12 @@ El contenido a continuación a presentarse con las instrucciones y el contenido 
 encuentra también dentro del PDF `Entrega Final - FSD Backend Pro_Flores_Reyes_Castro.pdf`
 
 ## 3.- Conexion a base datos
-  - 1) Cambiar el nombre del string de conexión para que coincida con la de su servidor en el archivo: appsettings.Development
-  - 2) En Visual Studio: Ir a Herramientas > Administrador de paquetes NuGet > Consola del Administrador de paquetes.
-  - 3)  Ejecutar el comando: Update-Database
-Con ese comando se permitirá ejecutar las migraciones correspondientes y en su SQL Server Management Studio podrá ver la base de datos creada
+  - 1) Cambiar el nombre del string de conexión para que coincida con la de su servidor en el archivo: appsettings.json y 
+  appsettings.Development.json
+  - 2) En el Visual Studio: Ir a Compilar > Recompilar Solución para evitar problemas en la ejecución.
+  - 3) En Visual Studio: Ir a Herramientas > Administrador de paquetes NuGet > Consola del Administrador de paquetes.
+  - 4)  Ejecutar el comando: Update-Database.
+Con ese comando se permitirá ejecutar las migraciones correspondientes y en su SQL Server Management Studio podrá ver la base de datos creada.
 
 ## 4.- Script SQL para poblar base de datos.
 Una vez realizadas las migraciones, por favor revisar que el esquema de base

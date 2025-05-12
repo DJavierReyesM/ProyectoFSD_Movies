@@ -5,6 +5,7 @@ wwwroot\imagenes\09670fc8-fa17-4fd8-93d4-e93c80ae4661.jpg
 wwwroot\imagenes\1b83be9a-4f36-4c58-b6ff-b7f822275f84.jpg
 wwwroot\imagenes\3d03fcfa-a042-4649-be0b-3df24a5f045e.jpg
 wwwroot\imagenes\40b77ead-acd5-468f-a6c8-ed126d0b9f38.jpg
+wwwroot\imagenes\485dd700-ffb9-4809-95de-7fcbf3de1cd0_Jay_Olivia.jpg
 wwwroot\imagenes\5669b634-9cf1-4e84-a7cc-e86316a05020.jpg
 wwwroot\imagenes\6d5d0186-2c85-42ec-a764-5e07c61a2464.jpg
 wwwroot\imagenes\7c059af8-34ee-4738-896f-f8e302c05726.jpg
@@ -13,6 +14,7 @@ wwwroot\imagenes\89f3d455-8b92-4a87-a1e5-e24a3381c5d0.jpg
 wwwroot\imagenes\8b116e02-e7ab-4780-8164-ac9d146c7380.jpg
 wwwroot\imagenes\8f4989f3-fab8-4b1b-84d9-9f7e7ac2f3ab_42d2553a-4165-4c04-872b-b2b4af81368f.jpg
 wwwroot\imagenes\8fdf8bed-281e-4386-9f47-5b9b22648b14.jpg
+wwwroot\imagenes\99ab7b8e-fa01-4b89-9292-94c9b6b7f69e_NextAvengers.jpg
 wwwroot\imagenes\9c3181ce-8174-44b6-9ae4-e019aec1fe1b_Christopher_Nolan_Cannes_2018.jpg
 wwwroot\imagenes\ff3dc925-4be3-4aa2-b822-90d57ffb7349.jpg
 wwwroot\js\site.js

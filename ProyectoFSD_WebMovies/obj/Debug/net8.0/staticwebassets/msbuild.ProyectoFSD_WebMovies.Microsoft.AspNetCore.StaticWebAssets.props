@@ -126,6 +126,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\40b77ead-acd5-468f-a6c8-ed126d0b9f38.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\485dd700-ffb9-4809-95de-7fcbf3de1cd0_Jay_Olivia.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoFSD_WebMovies</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoFSD_WebMovies</BasePath>
+      <RelativePath>imagenes/485dd700-ffb9-4809-95de-7fcbf3de1cd0_Jay_Olivia.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3sclsgkjbz</Fingerprint>
+      <Integrity>DfAFu9KkvN3PPm7X1m0nm7bj6rUGBI9ph9DCJgPGROM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\485dd700-ffb9-4809-95de-7fcbf3de1cd0_Jay_Olivia.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\5669b634-9cf1-4e84-a7cc-e86316a05020.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ProyectoFSD_WebMovies</SourceId>
@@ -269,6 +287,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\8fdf8bed-281e-4386-9f47-5b9b22648b14.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\99ab7b8e-fa01-4b89-9292-94c9b6b7f69e_NextAvengers.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ProyectoFSD_WebMovies</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ProyectoFSD_WebMovies</BasePath>
+      <RelativePath>imagenes/99ab7b8e-fa01-4b89-9292-94c9b6b7f69e_NextAvengers.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>h308fbanae</Fingerprint>
+      <Integrity>g3IEMtMHBpHGzaWHw8u0/RLYeYvpueGWz8LCwgF7kMk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\99ab7b8e-fa01-4b89-9292-94c9b6b7f69e_NextAvengers.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\imagenes\9c3181ce-8174-44b6-9ae4-e019aec1fe1b_Christopher_Nolan_Cannes_2018.jpg'))">
       <SourceType>Package</SourceType>
