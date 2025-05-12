@@ -14,7 +14,8 @@ INSERT INTO Directores (Nombre, Nacionalidad, FechaNacimiento) VALUES
   ('Christopher Nolan',    'Británico',      '1970-07-30'),
   ('Guillermo del Toro',   'Mexicano',       '1964-10-09'),
   ('Hayao Miyazaki',       'Japonés',        '1941-01-05'),
-  ('Kathryn Bigelow',      'Estadounidense', '1951-11-27');
+  ('Kathryn Bigelow',      'Estadounidense', '1951-11-27'),
+  ('Jay Olivia',		   'Estadounidense', '1976-01-01');
 
 -- 3) Poblar Actores
 INSERT INTO Actores (Nombre, Biografia, FechaNacimiento) VALUES
@@ -22,7 +23,8 @@ INSERT INTO Actores (Nombre, Biografia, FechaNacimiento) VALUES
   ('Meryl Streep',          'Considerada una de las mejores actrices de todos los tiempos.', '1949-06-22'),
   ('Leonardo DiCaprio',     'Conocido por su versatilidad y actuaciones intensas.', '1974-11-11'),
   ('Scarlett Johansson',    'Destacada tanto en cine independiente como en grandes blockbusters.', '1984-11-22'),
-  ('Denzel Washington',     'Ganador de dos premios Oscar por sus interpretaciones dramáticas.', '1954-12-28');
+  ('Denzel Washington',     'Ganador de dos premios Oscar por sus interpretaciones dramáticas.', '1954-12-28'),
+  ('Christopher Reeve',     'Actor, director de cine y activista estadounidense. Adquirió fama mundial como actor al interpretar a Superman en la película de acción real.', '1952-09-25');
 
 -- 4) Poblar Películas
 --   (título, sinopsis, duración en minutos, fecha de estreno, imagen (URL o ruta), FK GeneroId, FK DirectorId)
@@ -30,9 +32,6 @@ INSERT INTO Peliculas (Titulo, Sinopsis, Duracion, FechaEstreno, GeneroId, Direc
   ('Pulp Fiction',
       'Varias historias de crimen en Los Ángeles interconectadas de forma no lineal.',
       154, '1994-10-14',  1, 1),
-  ('Inception',
-      'Un ladrón que roba secretos a través de la invasión de los sueños recibe un encargo inusual.',
-      148, '2010-07-16', 4, 2),
   ('El Laberinto del Fauno',
       'Durante la posguerra española, una niña descubre un mundo fantástico lleno de criaturas mágicas.',
       118, '2006-10-11', 3, 3),
@@ -41,7 +40,10 @@ INSERT INTO Peliculas (Titulo, Sinopsis, Duracion, FechaEstreno, GeneroId, Direc
       125, '2001-07-20', 4, 4),
   ('En Tierra Hostil',
       'La historia real de un médico del ejército que ofrece ayuda en una zona de guerra sin arma.', 
-      131, '2014-12-25',3, 5);
+      131, '2014-12-25',3, 5),
+  ('Los Próximos Vengadores: Heroes del Mañana',
+      'Los hijos adolescentes de los famosos superhéroes luchan contra el poderoso villano Ultron en una batalla por la supervivencia de la humanidad.',
+      78, '2008-09-02', 4, 6);
 
 select top 10 * from Actores
 
