@@ -10,7 +10,7 @@ El contenido a continuación a presentarse con las instrucciones y el contenido 
 encuentra también dentro del PDF `Entrega Final - FSD Backend Pro_Flores_Reyes_Castro.pdf`
 
 ## 3.- Conexion a base datos
-  - 1) Cambiar el nombre del string de conexión para que coincida con la de su servidor en los archivos: appsettings.Development.json y appsettings.json
+  - 1) Cambiar el nombre del string de conexión para que coincida con la de su servidor en los archivos: `appsettings.Development.json` y `appsettings.json`
        (Como dato adicional. Ir a Compilar > Recompilar Solución si desea asegurarse de el compilado sea nuevo antes de ejecutar las migraciones.)
   - 2) En Visual Studio: Ir a Herramientas > Administrador de paquetes NuGet > Consola del Administrador de paquetes.
   - 3)  Ejecutar el comando: Update-Database
